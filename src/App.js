@@ -5,7 +5,7 @@ import { AppleProduct } from './AppleProduct';
 function getRandomProduct() {
   const products_local = ['iphone', 'ipad', 'watch', 'imac', 'macbook', 'airpods'];
 
-  return products_local[ Math.floor(Math.random() * products_local.length) ];
+  return products_local[ Math.floor(Math.random() * products_local.length)];
 }
 
 export function App() {
